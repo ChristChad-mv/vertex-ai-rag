@@ -69,22 +69,7 @@ Removes corpora that are no longer needed:
 - Requires confirmation to prevent accidental deletion
 - Permanently removes the corpus and all associated files
 
-## Troubleshooting
-
-If you encounter issues:
-
-- **Authentication Problems**:
-  - Run `gcloud auth application-default login` again
-  - Check if your service account has the necessary permissions
-
-- **API Errors**:
-  - Ensure the Vertex AI API is enabled: `gcloud services enable aiplatform.googleapis.com`
-  - Verify your project has billing enabled
-
-- **Missing Dependencies**:
-  - Ensure all requirements are installed: `pip install -r requirements.txt`
-
-## Additional Resources
+## Resources
 
 - [Vertex AI RAG Documentation](https://cloud.google.com/vertex-ai/generative-ai/docs/rag-overview)
 - [Google Agent Development Kit (ADK) Documentation](https://github.com/google/agents-framework)
